@@ -1,0 +1,15 @@
+<div class="PhotoSection">
+    <div class="Zoom__Container">
+  <div class="container" [style.transform]="'scale(' + zoomLevel / 100 + ')'">
+    <img
+      src="https://img.freepik.com/free-psd/google-icon-isolated-3d-render-illustration_47987-9777.jpg?w=2000"
+      alt=""
+      class="Photo"
+    />
+  </div>
+  <div class="btn__container">
+    <button (click)="zoomOut()" class="btn">-</button>
+    <button (click)="zoomIn()" class="btn">+</button>
+  </div>
+</div>
+</div>

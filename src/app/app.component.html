@@ -1,0 +1,5 @@
+<button (click)="ShowImage()">click me</button>
+<section *ngIf="PhotoFlag">
+<app-zoom-features  (click)="CloseImage()"></app-zoom-features>
+</section>
+<div *ngIf="PhotoFlag" class="bg" (click)="close()" ></div>
